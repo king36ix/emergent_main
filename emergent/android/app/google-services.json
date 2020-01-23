@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "161215258090",
+    "firebase_url": "https://emergent-1faf1.firebaseio.com",
+    "project_id": "emergent-1faf1",
+    "storage_bucket": "emergent-1faf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161215258090:android:8cd12899da73b0c18ea693",
+        "android_client_info": {
+          "package_name": "com.kaviarr.emergent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161215258090-d277490esmkumfuduidtrptiftq4dggq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0gqOldDJwloOIV6JUh8xsJxhtLiWcEIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161215258090-d277490esmkumfuduidtrptiftq4dggq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
