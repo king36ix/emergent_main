@@ -18,26 +18,26 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.blueGrey[100],
-        appBar: AppBar(
-          title: Text('Movr Services'),
-          backgroundColor: Colors.blueAccent[400],
-          elevation: 7.0,
-          actions: <Widget>[
-            FlatButton.icon(
-              label: Text('logout'),
-              icon: Icon(Icons.person),
-              onPressed: () async {
-                await _auth.signOut();
-                Authenticate();
-              },
-            ),
-          ],
-        ),
+//        appBar: AppBar(
+//          title: Text('Emergent Services',style: TextStyle(color:Colors.indigo[900]),),
+//          backgroundColor: Colors.teal[100],
+//          elevation: 7.0,
+//          actions: <Widget>[
+//            FlatButton.icon(
+//              label: Text('Logout'),
+//              icon: Icon(Icons.person),
+//              onPressed: () async {
+//                await _auth.signOut();
+//                Authenticate();
+//              },
+//            ),
+//          ],
+//        ),
         body: Center(
             child: Padding(
-          padding: const EdgeInsets.fromLTRB(4.0, 18.0, 4.0, 48.0),
+          padding:EdgeInsets.fromLTRB(4.0, 16.0, 4.0, 24.0),
           child: Column(children: <Widget>[
-            getImageAsset(),
+            Container(padding:EdgeInsets.symmetric(vertical:40.0,horizontal:30.0),child:getImageAsset(),),
             Card(
               child: ListTile(
                 // leading:Image(AssetImage:breakdown),
@@ -92,7 +92,7 @@ class Home extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 15.0,
+              height: 75.0,
             ),
             RaisedButton(
               child: Text('logout'),
@@ -113,12 +113,12 @@ Widget getImageAsset() {
   Image image = Image(
     image: emergent,
     width: 288.0,
-    height: 75.0,
+    height: 116.0,
   );
   return Container(
     padding: EdgeInsets.symmetric(),
     width: 288.0,
-    height: 108.0,
+    height: 120.0,
     child: image,
   );
 }

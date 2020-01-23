@@ -9,9 +9,9 @@ class Loading extends StatelessWidget{
 
       color:Colors.teal[50],
       child:Center(
-        child:SpinKitCubeGrid(
-          color: Colors.blue,
-          size: 50.0,
+        child:SpinKitDoubleBounce(
+          color: Colors.blueGrey[900],
+          size: 100.0,
         )
 
       )

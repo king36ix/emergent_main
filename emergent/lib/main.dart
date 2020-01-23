@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage>
           Column(children: <Widget>[
             AnimatedOpacity(
                 duration: Duration(seconds: 7),
-                opacity: (0.999),
+                opacity: (1),
                 child: getImageAsset(),),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 120.0,vertical:100.0),
@@ -92,10 +92,10 @@ Widget getImageAsset() {
   Image image = Image(
     image: emergent,
     width: 288.0,
-    height: 75.0,
+    height: 144.0,
   );
   return Container(
-    padding: EdgeInsets.symmetric(),
+    padding: EdgeInsets.fromLTRB(20,40.0,20.0,20.0),
     width: 288.0,
     height: 288.0,
     child: image,

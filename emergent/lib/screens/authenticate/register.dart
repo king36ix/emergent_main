@@ -182,16 +182,16 @@ getImageAsset2() {
   AssetImage movrs = AssetImage('images/Emergent.png');
   Image image = Image(
     image: movrs,
-    width: 108.0,
-    height: 108.0,
+    width: 144.0,
+    height: 144.0,
   );
 
   return Padding(
-    padding: const EdgeInsets.only(bottom: 16.0, top: 16.0),
+    padding: const EdgeInsets.only(bottom: 16.0, top: 22.0),
     child: Container(
       padding: EdgeInsets.symmetric(),
-      width: 108.0,
-      height: 108.0,
+      width: 144.0,
+      height: 144.0,
       child: image,
     ),
   );
